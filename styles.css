@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #5f564d;
+}
+
+body {
+  background-color: #f3e5d7;
+  padding: 20px;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+hr {
+  margin: 32px;
+}
+
+.section-rounded-container {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.section-rounded-container > img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.section-text > h1 {
+  padding: 20px 0;
+  font-family: "Young Serif", sans-serif;
+  font-weight: 300;
+  color: #312e2c;
+}
+
+.section-text > p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+}
+
+.internal-rounded-container {
+  padding: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 15px;
+  background-color: #fff7fb;
+  color: #7a284e;
+  font-family: "Outfit", sans-serif;
+}
+
+.internal-rounded-container h3 {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.internal-rounded-container ul {
+  margin-left: 24px;
+}
+
+.internal-rounded-container ul li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 200;
+}
+
+.internal-rounded-container ul li:nth-child(2) {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.section-ingredients h2 {
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: 24px;
+}
+
+.section-ingredients ul {
+  margin-left: 20px;
+}
+
+.section-ingredients ul li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 200;
+  font-family: "Outfit", sans-serif;
+}
+
+.section-ingredients ul li:nth-child(2),
+.section-ingredients ul li:nth-child(4) {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.section-ingredients ol {
+  margin-left: 20px;
+}
+
+.section-ingredients ol li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 200;
+  font-family: "Outfit", sans-serif;
+}
+
+.bold-list li::marker {
+  font-weight: 500;
+}
+
+.section-ingredients ol li:nth-child(2),
+.section-ingredients ol li:nth-child(4) {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.section-ingredients ol li:last-child {
+  padding-top: 16px;
+}
+
+/* Tabela */
+.section-ingredients p {
+  font-weight: 200;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 24px;
+}
+
+.section-table {
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.section-table td {
+  border-bottom: 1px solid #fff7fb;
+  padding: 10px 20px;
+}
+
+.section-table tbody tr td:nth-child(2) {
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 32px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
